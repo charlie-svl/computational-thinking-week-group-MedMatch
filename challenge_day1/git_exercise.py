@@ -5,7 +5,7 @@ import andrey
 import akanksha
 import al
 import hugo
-import max
+import maxim
 
 
 # Define an introduction function
