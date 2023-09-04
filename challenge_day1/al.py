@@ -1,6 +1,7 @@
 def N():
     print("Al-fatihi Abdulmalik")
-    return()
+    return
+
 def name_story():
     name = "Ella"
     return name
