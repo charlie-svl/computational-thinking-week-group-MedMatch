@@ -2,9 +2,6 @@ def name_hugo():
    print("Hugo Chang")
    return 
 
-def name_story():
-    name = "Theo"
-    return name
 
 def par_h_1(name_1, name_2, name_3, name_4, name_5, name_6):
    print("As winter descended upon Willowbrook, the grove in the forest transformed into a serene winter wonderland, blanketed in pristine snow. " + name_1 + ", " + name_2 + ", " + name_3 + ", " + name_4 + ", " + name_5 + ", and " + name_6 + " continued to meet in this magical place, and their hearts grew closer with each passing day. Their art adorned the grove's trees, merging seamlessly with the natural beauty around them. Their world expanded, and love blossomed between the six friends.")
