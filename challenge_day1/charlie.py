@@ -1,4 +1,4 @@
-def name_charlie():
+def name():
     print("Charlie Smit")
     return
 
