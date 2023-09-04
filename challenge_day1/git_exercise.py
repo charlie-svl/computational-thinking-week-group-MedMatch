@@ -20,10 +20,3 @@ import name_al
 import name_an 
 import akanksha 
 
-
-
-
-
-
-
-
