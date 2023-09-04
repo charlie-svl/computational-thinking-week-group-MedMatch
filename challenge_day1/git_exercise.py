@@ -15,10 +15,3 @@ def introduction():
     name_andrey()  # Call the function from name_an module
     akanksha_c()  # Call the function from name_ac module
 
-name_1 = name_ac()
-# Call the introduction function
-introduction()
-
-#import charlie
-
-
