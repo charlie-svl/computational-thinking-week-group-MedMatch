@@ -19,10 +19,19 @@ def introduction():
     max.function()
     return
 
+
 def story(name_1, name_2, name_3, name_4, name_5, name_6):
     act_1 = charlie.par_c_1(name_1, name_2, name_3, name_4, name_5, name_6), al.par_al_1(name_1, name_2, name_3, name_4, name_5, name_6), akanksha.par_ac_1(name_1, name_2, name_3, name_4, name_5, name_6), andrey.par_an_1(name_1, name_2, name_3, name_4, name_5, name_6), hugo.par_h_1(name_1, name_2, name_3, name_4, name_5, name_6), maxim.par_m_1(name_1, name_2, name_3, name_4, name_5, name_6)
     act_2 = charlie.par_c_2(name_1, name_2, name_3, name_4, name_5, name_6), al.par_al_2(name_1, name_2, name_3, name_4, name_5, name_6), akanksha.par_ac_2(name_1, name_2, name_3, name_4, name_5, name_6), andrey.par_an_2(name_1, name_2, name_3, name_4, name_5, name_6), hugo.par_h_2(name_1, name_2, name_3, name_4, name_5, name_6), maxim.par_m_2(name_1, name_2, name_3, name_4, name_5, name_6)
     act_3 = charlie.par_c_3(name_1, name_2, name_3, name_4, name_5, name_6), al.par_al_3(name_1, name_2, name_3, name_4, name_5, name_6), akanksha.par_ac_3(name_1, name_2, name_3, name_4, name_5, name_6), andrey.par_an_3(name_1, name_2, name_3, name_4, name_5, name_6), hugo.par_h_3(name_1, name_2, name_3, name_4, name_5, name_6), maxim.par_m_3(name_1, name_2, name_3, name_4, name_5, name_6)
-    return 
+    return
 
-story(charlie.name_story, al.name_story, akanksha.name_story, andrey.name_story, hugo.name_story, max.name_story)
+# Call the story function with the actual names
+name1 = "Alice"
+name2 = "Brianna"
+name3 = "Ella"
+name4 = "Juan"
+name5 = "Theo"
+name6 = "Igor"
+
+story(name1, name2, name3, name4, name5, name6)

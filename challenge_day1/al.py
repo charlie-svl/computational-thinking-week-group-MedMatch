@@ -6,6 +6,8 @@ def name_story():
     name = "Ella"
     return name
 
+name_3=name_story()
+
 def par_al_1(name_1, name_2, name_3, name_4, name_5, name_6):
     print(name_1, ", ", name_2, ", ", name_3, ", ", name_4, ", ", name_5, ", " "and", name_6, " " "all woke up from their slumber. They had soup together, showered, brushed their teeth and headed off to school. They all had different classes and regrouped after school. Once school was over, Name_6 had to go for his therapy appointment due to his prior experiences with his dad. The others played together while they waited for him.")
     return 

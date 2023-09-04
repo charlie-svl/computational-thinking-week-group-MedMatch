@@ -6,6 +6,7 @@ def name_andrey():
 def name_story():
     name = "Juan"
     return name
+name_4=name_story()
 
 
 def par_an_1(name_1, name_2, name_3, name_4, name_5, name_6):

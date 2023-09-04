@@ -4,7 +4,9 @@ def function():
 
 def name_story():
     name = "Mark"
-    return
+    return name
+name_6=name_story()
+
 
 def par_m_1(name_1, name_2, name_3, name_4, name_5, name_6):
     print(f"Their world expanded between, {name_1}, {name_2}, {name_3}, {name_4}, {name_5}, and {name_6}. It was as if the enchantment of the winter grove had a special bond between them. Together, they found warmth in their friendship, and their shared creativity brought life to the wintry landscape, making each moment in the grove a memory to be treasured for years to come.")
