@@ -2,7 +2,7 @@ def akanksha_c():
     print ("Akanksha Chatterjee")
     return
 
-def name_ac():
+def name_story():
     name = "Brianna"
     return name
 
