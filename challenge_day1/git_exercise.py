@@ -1,26 +1,25 @@
-from name_c import name_charlie
+
+# Import functions from different modules
 from name_al import N
 from name_an import name_andrey
 from name_ac import akanksha_c
 
-
+# Define an introduction function
 def introduction():
     print("This is team MedMatch. We are:")
-    name_charlie()
-    N()
-    name_andrey()
-    akanksha_c()
+    N()  # Call the function from name_al module
+    name_andrey()  # Call the function from name_an module
+    akanksha_c()  # Call the function from name_ac module
 
-name_3 = name_ac()
+name_1 = name_ac()
+# Call the introduction function
 introduction()
 
-def story():
-    act_1(par_c_1(),)
-    act_2()
-    act_3()
-    return
+#import charlie
+import name_al
+import name_an 
+import akanksha 
 
-story()
 
 
 
