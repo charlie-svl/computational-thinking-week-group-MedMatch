@@ -12,7 +12,7 @@ def introduction():
 introduction()
 
 def story():
-    act_1()
+    act_1(par_c_1(),)
     act_2()
     act_3()
     return
