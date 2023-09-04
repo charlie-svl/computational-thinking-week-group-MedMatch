@@ -16,7 +16,7 @@ def introduction():
     akanksha.akanksha_c()
     al.N()
     hugo.name_hugo()
-    max.function()
+    maxim.function()
     return
 
 
@@ -34,4 +34,5 @@ name4 = "Juan"
 name5 = "Theo"
 name6 = "Igor"
 
+introduction()
 story(name1, name2, name3, name4, name5, name6)
