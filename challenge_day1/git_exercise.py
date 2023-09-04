@@ -1,17 +1,24 @@
 from name_c import name_charlie
 from name_al import N
+from name_an import name_andrey
 
-def introduction(name_1, name_2, name_3, name_4, name_5, name_6):
-    print("This is team MedMatch. We are:", name_1, name_2, name_3, name_4, name_5, name_6)
-    name_1 = name_charlie()
-    name_2 = N()
-    name_3 =
-    name_4 =
-    name_5 =
-    name_6 =
-    return 
+
+def introduction():
+    print("This is team MedMatch. We are:")
+    name_charlie()
+    N()
+    name_andrey()
 
 introduction()
+
+def story():
+    act_1()
+    act_2()
+    act_3()
+    return
+
+story()
+
 
 
 
