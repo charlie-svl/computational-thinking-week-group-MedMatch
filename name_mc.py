@@ -1,1 +1,3 @@
-str = 'max czarnecki'
+def function():
+    print("Max Czarnecki")
+    return
