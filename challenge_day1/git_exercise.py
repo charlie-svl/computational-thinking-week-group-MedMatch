@@ -1,7 +1,7 @@
 from name_c import name_charlie
 from name_al import N
 from name_an import name_andrey
-from akanksha import akanksha_c
+from name_ac import akanksha_c
 
 
 def introduction():
@@ -11,6 +11,7 @@ def introduction():
     name_andrey()
     akanksha_c()
 
+name_3 = name_ac()
 introduction()
 
 def story():
