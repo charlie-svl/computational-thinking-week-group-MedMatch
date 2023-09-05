@@ -27,12 +27,12 @@ def story(name_1, name_2, name_3, name_4, name_5, name_6):
     return
 
 # Call the story function with the actual names
-name1 = "Alice"
-name2 = "Brianna"
-name3 = "Ella"
-name4 = "Juan"
-name5 = "Theo"
-name6 = "Igor"
+name1 = charlie.name_story()
+name2 = akanksha.name_story()
+name3 = al.name_story()
+name4 = andrey.name_story()
+name5 = hugo.name_story()
+name6 = maxim.name_story()
 
 introduction()
 story(name1, name2, name3, name4, name5, name6)
