@@ -1,21 +1,26 @@
 import datetime
 def solution_station_1(input):
+        
         year, month, day = map(int, input.split('-'))
 
-        # Create a datetime object without using the date() constructor
-        date_obj = datetime.datetime(year, month, day)
-
-        # Get the day of the week as an integer (0 = Monday, 1 = Tuesday, ..., 6 = Sunday)
+        date_obj = datetime.datetime(day, month, year)
         day_of_week = date_obj.weekday()
 
-        # Define a list of weekday names
-        weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
-        # Print the day of the week
-        print(f"The day of the week for {date_str} is {weekdays[day_of_week]}")
+        weekdays = {
+        0: "Monday",
+        1: "Tuesday",
+        2: "Wednesday",
+        3: "Thursday",
+        4: "Friday",
+        5: "Saturday",
+        6: "Sunday"
+        }
+        
+        weekday = weekdays[day_of_week]
+        print("The day of the week for", input, "is", weekday)
         return
 
-solution_station_1(17-04-2023)
+solution_station_1("17-04-2023")
 
 
         
