@@ -8,5 +8,5 @@ def solution_station_7(user_input):
     variables = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e}
     
     result = eval(user_input, variables)
-    return result
+    return float(result)
     
