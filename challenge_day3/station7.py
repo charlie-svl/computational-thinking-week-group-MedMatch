@@ -4,4 +4,10 @@ def solution_station_7():
     c = 4
     d = 7
     e = 0.5
-    return a,b,c,d,e
+    
+    variables = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e}
+    user_input = station7_input()
+    
+    result = eval(user_input, variables)
+    return result
+    
