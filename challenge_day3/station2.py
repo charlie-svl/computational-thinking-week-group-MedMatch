@@ -1,10 +1,10 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 import datetime
 def solution_station_2(input):
         
         year, month, day = map(int, input.split('-'))
 
-        date_obj = datetime.datetime(day, month, year)
+        date_obj = datetime.datetime(year, month, day)
         day_of_week = date_obj.weekday()
 
         weekdays = {
