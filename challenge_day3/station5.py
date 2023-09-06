@@ -19,11 +19,3 @@ team_data = {
 def solution_station_5(input):
     return team_data.get(input, "Member not found in any team")
 
-# Example usage
-input_name = input("Enter a member name:")  # Replace with the name you want to look up
-team_number = solution_station_5(input_name)
-
-if team_number != "Member not found in any team":
-    print(f"{input_name} is in Team {team_number}")
-else:
-    print(team_number)
