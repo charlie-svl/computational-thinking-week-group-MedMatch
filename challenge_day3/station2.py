@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import datetime
 def solution_station_2(input):
         
@@ -18,7 +18,4 @@ def solution_station_2(input):
         }
         
         weekday = weekdays[day_of_week]
-        print (weekday)
         return weekday
-
-solution_station_2("04-04-2023")
