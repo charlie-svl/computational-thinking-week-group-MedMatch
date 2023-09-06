@@ -1,3 +1,4 @@
+
 import datetime
 def solution_station_1(input):
         
@@ -22,5 +23,3 @@ def solution_station_1(input):
 
 solution_station_1("17-04-2023")
 
-
-        
