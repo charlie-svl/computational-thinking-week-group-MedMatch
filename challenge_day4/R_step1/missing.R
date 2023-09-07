@@ -30,3 +30,4 @@ json_data$people <- people_df
 json_text <- toJSON(json_data, pretty = TRUE)
 
 # Overwrite the original JSON f
+write(json_text, "data2.json")
